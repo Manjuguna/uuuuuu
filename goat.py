@@ -7,7 +7,7 @@ def sb(root):
                 sb[i] = sb[j]+1
     maximum = 0
     for i in range(mud): 
-        maximum = max(maximum , sbb[i])  
+        maximum = max(maximum , sb[i])  
     return maximum
 ars=int(input()) 
 root = list(map(int,input().split()))
